@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "138501791464",
+    "firebase_url": "https://farmly-go-a0067.firebaseio.com",
+    "project_id": "farmly-go-a0067",
+    "storage_bucket": "farmly-go-a0067.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138501791464:android:f2c84543c3bffcf620735d",
+        "android_client_info": {
+          "package_name": "com.example.mainactivity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138501791464-gkadvq4ha09evln64r4iu0hgkh6rhi68.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mainactivity",
+            "certificate_hash": "a1cdf0799a02ea3c06dd1bc8f48145e1ee106500"
+          }
+        },
+        {
+          "client_id": "138501791464-tgr7vqbcmku822c3s79jn2r3m6m18ltu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLSvS0c1_j9ZjWuaUTtvf-dypVIN28_3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138501791464-tgr7vqbcmku822c3s79jn2r3m6m18ltu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138501791464:android:f3ff0ba2c032575620735d",
+        "android_client_info": {
+          "package_name": "com.marking.farmlygo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138501791464-qaf35rqg6o6667uu9u40ul20tde08rgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.marking.farmlygo",
+            "certificate_hash": "8e9047ecbbff317af7e6e7c610076078e7925cee"
+          }
+        },
+        {
+          "client_id": "138501791464-tgr7vqbcmku822c3s79jn2r3m6m18ltu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLSvS0c1_j9ZjWuaUTtvf-dypVIN28_3Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138501791464-tgr7vqbcmku822c3s79jn2r3m6m18ltu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

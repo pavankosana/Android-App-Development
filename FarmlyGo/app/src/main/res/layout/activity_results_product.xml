@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultsProduct">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Your Products"
+        android:textColor="#123"
+        android:textSize="18dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"
+        ></TextView>
+
+
+    <LinearLayout
+        android:id="@+id/lin_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/head_pid"
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_below="@id/heading"
+            android:layout_margin="4dp"
+            android:layout_weight="0.1"
+            android:text="PID"
+            android:textColor="#123"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/head_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/heading"
+            android:layout_margin="4dp"
+            android:layout_weight="0.32"
+            android:text="Product name"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/head_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/heading"
+            android:layout_margin="4dp"
+            android:layout_weight="0.14"
+            android:text="Price"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/head_quan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/heading"
+            android:layout_margin="4dp"
+            android:layout_weight="0.2"
+            android:text="Quantity"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/head_loc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/heading"
+            android:layout_margin="4dp"
+            android:layout_weight="0.25"
+            android:text="Location"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/res_lin_lay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lin_lay"
+        android:layout_margin="16dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <TextView
+            android:id="@+id/res_pid"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/lin_lay"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:gravity="center_horizontal"
+            android:layout_weight="0.1"
+            android:inputType="textMultiLine"
+            android:text=""
+            android:textSize="16sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/res_name"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/lin_lay"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:layout_weight="0.32"
+            android:inputType="textMultiLine"
+            android:text=""
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:id="@+id/res_price"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/lin_lay"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:layout_weight="0.14"
+            android:inputType="textMultiLine"
+            android:text=""
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/res_quan"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/lin_lay"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:layout_weight="0.2"
+            android:inputType="textMultiLine"
+            android:text=""
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:id="@+id/res_loc"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_below="@id/lin_lay"
+            android:layout_gravity="center"
+            android:layout_margin="4dp"
+            android:layout_weight="0.25"
+            android:inputType="textMultiLine"
+            android:text=""
+            android:textSize="16sp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"></TextView>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

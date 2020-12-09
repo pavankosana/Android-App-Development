@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VillageHolder"
+    android:background="@drawable/flower">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/nav_villageRepresentative_tv"
+        android:layout_centerHorizontal="true"
+        android:text="Village Representative"
+        android:textStyle="bold"
+        android:textSize="22dp"
+        android:paddingTop="5dp"
+        android:textColor="#5CA80B"
+        />
+    <ImageView
+        android:layout_width="208dp"
+        android:layout_height="209dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/nav_villageRepresentative_tv"
+        android:src="@drawable/ic_account_circle_gray_24dp"
+        android:id="@+id/nav_villageRepresentative_iv"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_villageRepresentative_iv"
+        android:id="@+id/nav_villageRepresentative_tv1"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_villageRepresentative_tv1"
+        android:id="@+id/nav_villageRepresentative_tv2"
+        android:text="Phone Number : "
+        android:textStyle="bold"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_villageRepresentative_tv1"
+        android:layout_toRightOf="@+id/nav_villageRepresentative_tv2"
+        android:id="@+id/nav_villageRepresentative_tv3"
+        android:text=""
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_villageRepresentative_tv2"
+        android:id="@+id/nav_villageRepresentative_tv4"
+        android:text="Email Id              : "
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_villageRepresentative_tv2"
+        android:layout_toRightOf="@+id/nav_villageRepresentative_tv4"
+        android:id="@+id/nav_villageRepresentative_tv5"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_villageRepresentative_tv5"
+        android:id="@+id/nav_villageRepresentative_tv6"
+        android:text="Age                     : "
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_villageRepresentative_tv5"
+        android:layout_toRightOf="@+id/nav_villageRepresentative_tv2"
+        android:id="@+id/edit_profile_tv9"
+        android:text=""
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_villageRepresentative_tv6"
+        android:id="@+id/nav_villageRepresentative_tv7"
+        android:text="Address            : "
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/nav_villageRepresentative_tv9"
+        android:layout_width="218dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_villageRepresentative_tv6"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/nav_villageRepresentative_tv7"
+        android:text=""
+        android:textColor="#000" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_villageRepresentative_tv7"
+        android:id="@+id/nav_villageRepresentative_loc"
+        android:text="Location            : "
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/nav_villageRepresentative_tv7"
+        android:layout_marginTop="24dp"
+        android:layout_toRightOf="@+id/nav_villageRepresentative_loc"
+        ></Spinner>
+
+
+
+
+
+</RelativeLayout>

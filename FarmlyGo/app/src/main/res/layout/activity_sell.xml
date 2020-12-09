@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/flower"
+    tools:context=".SellActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:text="Sell Products"
+        android:textColor="#123"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product ID:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#123"
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/pid"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/t1"
+        android:hint="Product ID"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="5dp"
+        ></EditText>
+
+
+
+
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product name:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/t1"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#123"
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/pname"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/t2"
+        android:hint="Product name"
+        android:layout_below="@+id/pid"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        ></EditText>
+
+
+
+    <TextView
+        android:id="@+id/t3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product price:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/t2"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#123"
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/t3"
+        android:hint="Product price"
+        android:layout_below="@+id/pname"
+        android:layout_marginLeft="12dp"
+        android:inputType="number"
+        android:layout_marginRight="5dp"
+        ></EditText>
+
+
+
+
+    <TextView
+        android:id="@+id/t4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/t3"
+        android:layout_marginBottom="32dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#123"
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/quan"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/t4"
+        android:hint="Product quantity"
+        android:layout_below="@+id/price"
+        android:layout_marginLeft="54dp"
+        android:layout_marginBottom="15dp"
+        android:inputType="number"
+        android:layout_marginRight="5dp"
+        ></EditText>
+
+
+
+    <TextView
+        android:id="@+id/t5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/t4"
+        android:layout_marginBottom="64dp"
+        android:textColor="#123"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+
+
+    <EditText
+        android:id="@+id/loc"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_toRightOf="@+id/t5"
+        android:hint="Product Location"
+        android:layout_below="@+id/quan"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="5dp"
+        android:textColor="#FFFF"
+        ></EditText>
+
+
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post"
+        android:layout_below="@+id/t5"
+        android:layout_marginLeft="32dp"
+        android:background="@drawable/round_primary"
+        android:textColor="#FFFF"
+        ></Button>
+
+    <Button
+        android:id="@+id/show"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t5"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="32dp"
+        android:text="Show"
+        android:background="@drawable/round_primary"
+        android:textColor="#FFFF"
+        ></Button>
+
+</RelativeLayout>

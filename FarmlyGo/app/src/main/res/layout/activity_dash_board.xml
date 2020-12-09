@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DashBoard"
+    android:background="@drawable/flower"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/Dashtext"
+                android:text="Welcome to Dash Board"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:textColor="#5CA80B"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="70dp"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:layout_centerInParent="true"
+                ></TextView>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mar_btn"
+                android:text="Market Price"
+                android:textColor="#FFFF"
+                android:background="@drawable/round_primary"
+                android:layout_alignParentLeft="true"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="2.5dp"></Button>
+
+
+            <Button
+                android:id="@+id/sell_btn"
+                android:text="Sell"
+                android:textColor="#FFFF"
+                android:background="@drawable/round_primary"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="2.5dp"></Button>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/VR_btn"
+                android:text="Village holder"
+                android:textColor="#FFFF"
+                android:background="@drawable/round_primary"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="2.5dp"></Button>
+
+            <Button
+                android:id="@+id/edit"
+                android:text="Edit Profile"
+                android:textColor="#FFFF"
+                android:background="@drawable/round_primary"
+                android:layout_alignParentRight="true"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="2.5dp"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/contact"
+                android:text="Contact us"
+                android:textColor="#FFFF"
+                android:background="@drawable/round_primary"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="2.5dp"></Button>
+
+            <Button
+                android:id="@+id/share"
+                android:text="Share me"
+                android:textColor="#FFFF"
+                android:background="@drawable/round_primary"
+                android:layout_alignParentRight="true"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_marginLeft="2.5dp"></Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/logout"
+                android:text="Logout"
+                android:textColor="#FFFF"
+                android:background="@drawable/round_primary"
+                android:layout_alignParentRight="true"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="logout"
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_marginRight="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="30dp"></Button>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
